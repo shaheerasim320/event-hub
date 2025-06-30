@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Calendar, MapPin, Clock, Users, DollarSign, Ticket, Trash2 } from 'lucide-react';
 import { format } from 'date-fns';
 import toast from 'react-hot-toast';
+import Link from 'next/link';
 
 export default function MyBookingsPage() {
   const [bookings, setBookings] = useState([]);
@@ -84,14 +85,14 @@ export default function MyBookingsPage() {
           <Ticket className="h-16 w-16 text-gray-400 mx-auto mb-4" />
           <h3 className="text-lg font-semibold text-gray-900 mb-2">No bookings yet</h3>
           <p className="text-gray-600 mb-4">
-            You haven't made any bookings yet. Start exploring events to book your first one!
+            You haven&apos;t made any bookings yet. Start exploring events to book your first one!
           </p>
-          <a
+          <Link
             href="/events"
             className="btn-primary inline-block"
           >
             Browse Events
-          </a>
+          </Link>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -63,7 +63,7 @@ function SearchPageContent() {
           <Search className="h-16 w-16 text-gray-400 mx-auto mb-4" />
           <h3 className="text-xl font-medium text-gray-900 mb-2">No results found</h3>
           <p className="text-gray-600">
-            We couldn't find any events matching your search.
+            We couldn&apos;t find any events matching your search.
           </p>
         </div>
       )}
@@ -89,7 +89,7 @@ function SearchPageContentWrapper() {
     <>
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
-          Search Results for "{query}"
+          Search Results for &quot;{query}&quot;
         </h1>
         <p className="text-gray-600">
           Showing events that match your search query.
