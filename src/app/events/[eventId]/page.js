@@ -7,6 +7,7 @@ import { useAuth } from '@/components/AuthProvider';
 import toast from 'react-hot-toast';
 import { format } from 'date-fns';
 import { Calendar, Clock, MapPin, Tag, Users, DollarSign, Edit } from 'lucide-react';
+import Image from 'next/image';
 
 export default function EventDetailPage() {
   const router = useRouter();
@@ -90,7 +91,7 @@ export default function EventDetailPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-        <img src={event.images[0] || 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800'} alt={event.title} className="w-full h-96 object-cover" />
+        <Image src={event.images[0] || 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800'} alt={event.title} width={1200} height={400} className="w-full h-96 object-cover" />
         
         <div className="p-8 relative">
           {canEdit && (

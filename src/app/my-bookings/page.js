@@ -5,6 +5,7 @@ import { Calendar, MapPin, Clock, Users, DollarSign, Ticket, Trash2 } from 'luci
 import { format } from 'date-fns';
 import toast from 'react-hot-toast';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function MyBookingsPage() {
   const [bookings, setBookings] = useState([]);
@@ -100,9 +101,11 @@ export default function MyBookingsPage() {
             <div key={booking._id} className="bg-white rounded-lg shadow-md overflow-hidden">
               {booking.event.image && (
                 <div className="h-48 bg-gray-200">
-                  <img
+                  <Image
                     src={booking.event.image}
                     alt={booking.event.title}
+                    width={800}
+                    height={300}
                     className="w-full h-full object-cover"
                   />
                 </div>

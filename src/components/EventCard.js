@@ -1,14 +1,17 @@
 import Link from 'next/link';
 import { MapPin, Clock, Users } from 'lucide-react';
 import { format } from 'date-fns';
+import Image from 'next/image';
 
 export default function EventCard({ event }) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
       <div className="relative">
-        <img
+        <Image
           src={event.images[0] || 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800'}
           alt={event.title}
+          width={800}
+          height={300}
           className="w-full h-48 object-cover"
         />
         <div className="absolute top-2 right-2 bg-white px-3 py-1 rounded-full text-sm font-semibold text-gray-800 shadow-md">
@@ -29,7 +32,7 @@ export default function EventCard({ event }) {
           </div>
           <div className="flex items-center">
             <Clock className="h-4 w-4 mr-2 text-gray-500" />
-            <span>{format(new Date(event.dateTime.start), 'MMM dd, yyyy • p')}</span>
+            <span>{format(new Date(event.dateTime.start), 'MMM dd, yyyy \u2022 p')}</span>
           </div>
           <div className="flex items-center">
             <Users className="h-4 w-4 mr-2 text-gray-500" />

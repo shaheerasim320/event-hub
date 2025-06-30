@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'EventHub', // From your previous head.js title
   description: 'Discover, book, and manage events with ease', // Existing
-  viewport: 'width=device-width, initial-scale=1', // From your previous head.js meta tag
   icons: {
     // Primary favicon (you had /favicon.ico and /calendar.svg - choose one for main, or include both as 'other')
     icon: '/calendar.svg', // Using calendar.svg as the primary favicon icon
@@ -28,6 +27,11 @@ export const metadata = {
       },
     ],
   },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {
