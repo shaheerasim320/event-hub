@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Tech Conference 2024",
+    "description": "Join us for the biggest tech conference of the year! Featuring keynote speakers, workshops, and networking opportunities with industry leaders.",
+    "category": "Technology",
+    "dateTime": {
+      "start": "2024-12-15T09:00:00.000Z",
+      "end": "2024-12-15T18:00:00.000Z"
+    },
+    "location": {
+      "venue": "Convention Center",
+      "address": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001"
+    },
+    "price": 299.99,
+    "capacity": 500,
+    "organizer": "Tech Events Inc",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+    "tags": ["technology", "conference", "networking", "workshops"]
+  },
+  {
+    "title": "Jazz Night at Blue Note",
+    "description": "An evening of smooth jazz featuring local and international artists. Enjoy great music, cocktails, and a sophisticated atmosphere.",
+    "category": "Music",
+    "dateTime": {
+      "start": "2024-11-20T20:00:00.000Z",
+      "end": "2024-11-20T23:00:00.000Z"
+    },
+    "location": {
+      "venue": "Blue Note Jazz Club",
+      "address": "456 Jazz Avenue",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10002"
+    },
+    "price": 75.00,
+    "capacity": 150,
+    "organizer": "Blue Note Entertainment",
+    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800",
+    "tags": ["jazz", "music", "live", "nightlife"]
+  },
+  {
+    "title": "Yoga Retreat Weekend",
+    "description": "Escape the city for a rejuvenating yoga retreat. Includes meditation sessions, healthy meals, and peaceful nature walks.",
+    "category": "Health & Wellness",
+    "dateTime": {
+      "start": "2024-12-01T08:00:00.000Z",
+      "end": "2024-12-03T17:00:00.000Z"
+    },
+    "location": {
+      "venue": "Serenity Mountain Resort",
+      "address": "789 Mountain Road",
+      "city": "Aspen",
+      "state": "CO",
+      "zipCode": "81611"
+    },
+    "price": 450.00,
+    "capacity": 30,
+    "organizer": "Mindful Living Center",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "tags": ["yoga", "wellness", "retreat", "meditation"]
+  },
+  {
+    "title": "Food & Wine Festival",
+    "description": "A culinary celebration featuring top chefs, wine tastings, cooking demonstrations, and gourmet food samples from around the world.",
+    "category": "Food & Drink",
+    "dateTime": {
+      "start": "2024-11-25T11:00:00.000Z",
+      "end": "2024-11-25T22:00:00.000Z"
+    },
+    "location": {
+      "venue": "Central Park",
+      "address": "Central Park West",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10024"
+    },
+    "price": 120.00,
+    "capacity": 1000,
+    "organizer": "Culinary Events NYC",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800",
+    "tags": ["food", "wine", "culinary", "festival"]
+  },
+  {
+    "title": "Startup Pitch Competition",
+    "description": "Watch innovative startups pitch their ideas to a panel of investors. Network with entrepreneurs and discover the next big thing.",
+    "category": "Business",
+    "dateTime": {
+      "start": "2024-12-10T14:00:00.000Z",
+      "end": "2024-12-10T20:00:00.000Z"
+    },
+    "location": {
+      "venue": "Innovation Hub",
+      "address": "321 Startup Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105"
+    },
+    "price": 50.00,
+    "capacity": 200,
+    "organizer": "Venture Capital Network",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+    "tags": ["startup", "pitch", "investors", "networking"]
+  },
+  {
+    "title": "Comedy Night",
+    "description": "Laugh the night away with stand-up comedians from Comedy Central and Netflix specials. 21+ event with full bar service.",
+    "category": "Entertainment",
+    "dateTime": {
+      "start": "2024-11-30T19:30:00.000Z",
+      "end": "2024-11-30T22:30:00.000Z"
+    },
+    "location": {
+      "venue": "Laugh Factory",
+      "address": "654 Comedy Lane",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90028"
+    },
+    "price": 35.00,
+    "capacity": 300,
+    "organizer": "Laugh Factory Productions",
+    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800",
+    "tags": ["comedy", "stand-up", "entertainment", "nightlife"]
+  },
+  {
+    "title": "Marathon Training Workshop",
+    "description": "Get ready for your next marathon with expert training tips, nutrition advice, and running techniques from professional coaches.",
+    "category": "Sports",
+    "dateTime": {
+      "start": "2024-12-05T09:00:00.000Z",
+      "end": "2024-12-05T16:00:00.000Z"
+    },
+    "location": {
+      "venue": "Sports Complex",
+      "address": "987 Athletic Drive",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02108"
+    },
+    "price": 85.00,
+    "capacity": 100,
+    "organizer": "Boston Running Club",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+    "tags": ["running", "marathon", "training", "fitness"]
+  },
+  {
+    "title": "Art Gallery Opening",
+    "description": "Exclusive opening night for contemporary art exhibition featuring emerging artists. Wine and cheese reception included.",
+    "category": "Arts & Culture",
+    "dateTime": {
+      "start": "2024-11-28T18:00:00.000Z",
+      "end": "2024-11-28T21:00:00.000Z"
+    },
+    "location": {
+      "venue": "Modern Art Gallery",
+      "address": "147 Art District",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101"
+    },
+    "price": 25.00,
+    "capacity": 150,
+    "organizer": "Contemporary Arts Foundation",
+    "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800",
+    "tags": ["art", "gallery", "exhibition", "culture"]
+  },
+  {
+    "title": "Blockchain & Crypto Summit",
+    "description": "Learn about the future of blockchain technology, cryptocurrency trends, and investment opportunities from industry experts.",
+    "category": "Technology",
+    "dateTime": {
+      "start": "2024-12-12T10:00:00.000Z",
+      "end": "2024-12-12T18:00:00.000Z"
+    },
+    "location": {
+      "venue": "Tech Conference Center",
+      "address": "555 Innovation Way",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "78701"
+    },
+    "price": 199.99,
+    "capacity": 400,
+    "organizer": "Crypto Events LLC",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800",
+    "tags": ["blockchain", "crypto", "technology", "investment"]
+  },
+  {
+    "title": "Family Fun Day",
+    "description": "A day of fun activities for the whole family including games, face painting, balloon animals, and live entertainment.",
+    "category": "Family",
+    "dateTime": {
+      "start": "2024-12-08T10:00:00.000Z",
+      "end": "2024-12-08T16:00:00.000Z"
+    },
+    "location": {
+      "venue": "Community Park",
+      "address": "321 Family Street",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601"
+    },
+    "price": 15.00,
+    "capacity": 500,
+    "organizer": "Family Events Chicago",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800",
+    "tags": ["family", "kids", "entertainment", "outdoor"]
+  }
+] 
