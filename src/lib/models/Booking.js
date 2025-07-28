@@ -98,6 +98,5 @@ bookingSchema.virtual('canBeCancelled').get(function() {
 bookingSchema.index({ user: 1, createdAt: -1 });
 bookingSchema.index({ event: 1, status: 1 });
 bookingSchema.index({ stripePaymentIntentId: 1 });
-bookingSchema.index({ 'tickets.ticketId': 1 });
 
 export default mongoose.models.Booking || mongoose.model('Booking', bookingSchema); 
